@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>Iris_ Species</title>
+</head>
+
+<body>
+    IRIS_SPECIES <br><br>
+    <form action="/predict" method="POST">
+        <lable>SepalLengthCm</lable><input type="text" name="SepalLengthCm"><br><br>
+        <lable>SepalWidthCm</lable><input type="text" name="SepalWidthCm"><br><br>
+        <lable>PetalLengthCm</lable><input type="text" name="PetalLengthCm"><br><br>
+        <lable>PetalWidthCm</lable><input type="text" name="PetalWidthCm"><br><br>
+
+        <input type="submit" value="Predict Species">
+
+        <br><br> {{ prediction }}
+
+    </form>
+
+</body>
+
+</html>
